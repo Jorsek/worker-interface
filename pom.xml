@@ -6,7 +6,7 @@
 
   <groupId>com.jorsek</groupId>
   <artifactId>cld-worker-interface</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <build>
     <plugins>
       <plugin>
