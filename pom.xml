@@ -27,22 +27,4 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
-
-  <repositories>
-    <repository>
-      <id>nexus.easydita</id>
-      <url>https://nexus.easydita.com/content/repositories/all/</url>
-    </repository>
-  </repositories>
-
-  <distributionManagement>
-    <repository>
-      <id>nexus.easydita</id>
-      <url>https://nexus.easydita.com/repository/releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus.easydita</id>
-      <url>https://nexus.easydita.com/repository/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
 </project>
