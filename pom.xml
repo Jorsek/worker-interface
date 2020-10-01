@@ -27,4 +27,41 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Wojtek Jarosz</name>
+      <email>wojtek.jarosz@jorsek.com</email>
+      <organization>Jorsek</organization>
+      <organizationUrl>https://github.com/Jorsek/</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <!-- Should be format scm:git:git or scm:git:https -->
+    <connection>scm:git:https://github.com/Jorsek/worker-interface.git</connection>
+    <developerConnection>scm:git:ssh://github.com/Jorsek/worker-interface.git</developerConnection>
+    <url>https://github.com/Jorsek/worker-interface</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <!-- We are deploying to Sonatype, so enter Sonatype Distribution Stuff Here -->
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
 </project>
